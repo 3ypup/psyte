@@ -295,10 +295,10 @@ http://www.templatemo.com/tm-473-november
 	header .site-logo h1 { margin: 0px; line-height: 36px; }
 	header.smaller { height: 55px;}
 	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
-	header.smaller .site-logo h1 a { font-size: 28px; }
+	header.smaller .site-logo h1 a { font-size: 25px; }
 	
 	#mobile_sec { position: fixed; width: 100%;}
-	#mobile_sec .mobile { display: block; position: relative; float: right; }
+	#mobile_sec .mobile { display: grid; position: relative; float: right; }
 	#mobile_sec .menumobile { display: none; width: 100%; position: absolute; top: 55px; right: 0%; background: rgba(0, 0, 0, 0.5);  }
 	#mobile_sec .menumobile .Navigation { width: 100%; float: none; }
 	#mobile_sec .menumobile .Navigation ul { float: none;}
