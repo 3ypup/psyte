@@ -2,6 +2,7 @@
 
 <body>
 
+
 <!-- \\ Begin Holder \\ -->
 <div class="DesignHolder">
     <!-- \\ Begin Frame \\ -->
@@ -269,16 +270,9 @@
                 <div class="Get_sec">
                     <div class="Mid">                   
                         <!-- \\ Begin Left Side \\ -->
-                        <div class="Leftside">
-                            <form action="#">
-                                <fieldset>
-                                    <p><input type="text" value="" placeholder="ИМЯ" class="field"></p>
-                                    <p><input type="email" value="" placeholder="ПОЧТА" class="field"></p>
-                                    <!--<p><textarea cols="2"  rows="2" placeholder="MESSAGE"></textarea></p>-->
-                                    <p><input type="submit" value="ЗАПИСАТЬСЯ" class="button"></p>
-                                </fieldset>
-                            </form>
-                        </div>
+
+                        <%= render file: "orders/new.html.erb" %>
+
                         <!-- // End Left Side // -->
                         <!-- \\ Begin Right Side \\ -->
                         <div class="Rightside">
@@ -319,6 +313,10 @@
     </div>
     <!-- // End Layout Frame // -->
 </div>
+
+
+
+
 <!-- // End Design Holder // -->
 <div id="loader-wrapper">
 <div id="loader"></div>

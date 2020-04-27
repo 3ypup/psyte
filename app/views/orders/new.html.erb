@@ -1,0 +1,13 @@
+<div class="Leftside">
+    
+<%= form_for :order,  url: orders_path do |f| %>                
+        <fieldset>
+            <p><input name = "order[author]" type="text" value="" placeholder="ИМЯ" class="field"></p>
+                <p><input name = "order[a_email]" type="email" value="" placeholder="ПОЧТА" class="field"></p>
+                <p><input name = "order[a_phone]" type="phone" value="" placeholder="ТЕЛЕФОН" class="field"></p>
+                <!--<p><textarea cols="2"  rows="2" placeholder="MESSAGE"></textarea></p>-->
+                <p><input type="submit" value="ЗАПИСАТЬСЯ" class="button"></p>
+        </fieldset>
+                               
+ <%end%>  
+</div>
