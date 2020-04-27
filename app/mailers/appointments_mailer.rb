@@ -1,2 +1,0 @@
-class AppointmentsMailer < ApplicationMailer
-end
