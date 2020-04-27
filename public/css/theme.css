@@ -61,7 +61,7 @@ body { background: #fff; }
 /* <<< Header >>> */
 header { width: 100%; position: fixed; top: 0px; left: 0px; height: 105px; background: rgba(0, 0, 0, 0.5); z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
-header .site-logo { padding: 30px 0px 0px 0px; width: 380px; float: left; transition: all 0.3s;  }
+header .site-logo { padding: 30px 0px 0px 0px; width: 310px; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 25px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
@@ -76,7 +76,7 @@ header.smaller .site-logo h1 a { font-size: 28px;  }
 .Navigation li { float: left; padding: 0px;  margin: 0px; height: 105px; position: relative; transition: all 0.3s ease; }
 .Navigation li a { padding: 42px 41px 36px 41px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 .Navigation li span { 
-	border-bottom: solid 5px #925b08;
+	border-bottom: solid 5px #2f6b41;
 	background: rgba(56,87,122,1);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(56,87,122,1)), color-stop(0%, rgba(56,87,122,1)), color-stop(0%, rgba(56,87,122,1)), color-stop(100%, rgba(44,68,94,1)));
 	background: linear-gradient(to bottom, rgb(56, 122, 76) 0%, rgb(56, 122, 67) 0%, rgb(56, 122, 76) 0%, rgb(47, 107, 65) 100%);
