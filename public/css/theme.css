@@ -100,7 +100,7 @@ header.smaller .Navigation li { height: 60px; }
 
 .mobile { display: none;  }
 .mobile .fa { padding: 12px 14px; font-size: 31px; width: 55px; height: 55px; color: #fff; cursor: pointer; background: #367649; }
-.mobile .fa:hover { background: #e3860e; }
+.mobile .fa:hover { background: #367649; }
 .mobile.closed .fa-bars { display: none; }
 .mobile .fa-times { padding: 11px 15px; width: 55px; height: 55px; display: none; font-size: 31px; }
 .mobile.closed .fa-times { display: block; }
